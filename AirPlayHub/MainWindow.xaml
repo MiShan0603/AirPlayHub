@@ -1,0 +1,34 @@
+﻿<Window x:Class="AirPlayHub.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AirPlayHub"
+        mc:Ignorable="d"
+        Title="AirPlayHub(F11全屏)" Height="450" Width="800" Background="Black" PreviewKeyDown="Window_PreviewKeyDown"
+        Loaded="Window_Loaded" Closing="Window_Closing" WindowStartupLocation="CenterScreen">
+    <Grid Background="Black">
+        <Grid x:Name="rootGrid" Background="Black" Margin="5"/>
+
+        <Grid x:Name="gridControls">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="32" />
+                <ColumnDefinition Width="32" />
+                <ColumnDefinition Width="10" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10" />
+                <RowDefinition Height="32" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="1" Grid.Column="1">
+                
+            </Grid>
+
+        </Grid>
+    </Grid>
+    
+</Window>

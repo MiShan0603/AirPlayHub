@@ -1,0 +1,17 @@
+﻿<Window x:Class="AirPlayHub.UI.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AirPlayHub.UI"
+        mc:Ignorable="d"
+        Title="Help" Height="180" Width="320" WindowStartupLocation="CenterOwner" ShowInTaskbar="False" ResizeMode="NoResize">
+    <Grid>
+        <StackPanel Orientation="Vertical" Grid.Column="1" Margin="8">
+            <TextBlock Text="1、F11 进入/取消全屏" TextWrapping="Wrap" />
+            <TextBlock Text="2、确保投屏设备在一个WIFI中" TextWrapping="Wrap" />
+            <TextBlock Text="3、如果使用的路由是专业路由，请确认已经打开mDns协议" TextWrapping="Wrap" />
+            <TextBlock Text="4、允许本程序通过防火墙" TextWrapping="Wrap" />
+        </StackPanel>
+    </Grid>
+</Window>
